@@ -1,0 +1,28 @@
+{
+  "name": "mastersexample.github.io",
+  "version": "1.0.0",
+  "description": "[![](https://i.imgur.com/zNBkzj1.png)](https://beautifuljekyll.com/plans/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "cypress": "^7.2.0",
+    "perfecto-cypress-reporter": "^0.0.12",
+    "perfecto-cypress-sdk": "^0.0.51"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKlavins/MastersExample.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKlavins/MastersExample.github.io/issues"
+  },
+  "homepage": "https://github.com/AKlavins/MastersExample.github.io#readme"
+}
